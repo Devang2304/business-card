@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+.navbar {
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.profile-picture {
+    height: 23rem;
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+
+.full-name {
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    background-color: #1A1B21;
+    padding-top: 0.8rem;
+}
+
+.current-role {
+    color: #F3BF99;
+    font-size: 0.8rem;
+    font-weight: 400;
+    background-color: #1A1B21;
+    padding-top: 0.4rem;
+
+}
+
+@media only screen and (min-width: 600px) {
+
+    .profile-picture {
+        display: none;
+    }
+
+    .full-name {
+        font-size: 3rem;
+        background-color: #161619;
+        padding-top: 1.8rem;
+    }
+
+    .current-role {
+        font-size: 1.8rem;
+        background-color: #161619;
+        padding-bottom: 1.5rem;
+        padding-top: 1rem;
+    }
+
+}

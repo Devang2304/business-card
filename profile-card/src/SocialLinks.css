@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+.buttons {
+    background-color: #1A1B21;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 1rem;  
+}
+
+.email-button {
+    background-color: #D1D5DB;
+    border: 1px solid #D1D5DB;
+    width: 6.5rem;
+    height: 2.5rem;    
+    border-radius: 8px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.linkedin-button {
+    background-color: #5093E2;
+    border: 1px solid #5093E2;
+    width: 6.5rem;
+    height: 2.5rem;
+    border-radius: 8px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.linkedin-logo-white {
+    height: 1.1rem;
+    width: 1.1rem;
+    background-color: #5093E2;
+    margin-right: 8px;
+}
+
+.email-symbol {
+    height: 1.7rem;
+    width: 1.7rem;
+    background-color: #D1D5DB;
+    padding-right: 4px;
+}
+
+.linkedin-button:hover {
+    opacity:0.5;
+}
+
+.email-button:hover {
+    opacity:0.5;
+}
+
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+}
+
+
+@media only screen and (min-width: 600px) {
+
+    .buttons {
+        margin-top: 1.8rem;
+    }
+
+    .linkedin-button, .email-button {
+        width: 16rem;
+        height: 3.5rem;
+        font-size: 1.5em;
+    }
+
+    .linkedin-logo-white {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    .email-symbol {
+        width: 2.4rem;
+        height: 2.4rem;
+    }
+
+ 
+
+
+}
